@@ -74,6 +74,9 @@ I used a **Star Schema**.
 
   * Used to check row counts and validate that the data was loaded correctly.
 
+  <img width="389" height="221" alt="image" src="https://github.com/user-attachments/assets/172e0c2f-2d16-4a32-9cea-2f25480ae2bc" />
+
+
 ---
 
 ## Notes

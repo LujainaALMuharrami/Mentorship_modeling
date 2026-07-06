@@ -59,6 +59,9 @@ I used a **Star Schema**.
 
   * Creates all dimension tables and the fact table.
 
+  <img width="1534" height="767" alt="Screenshot 2026-07-06 141853" src="https://github.com/user-attachments/assets/74be22b0-b12f-4df5-9e13-fed34705cff4" />
+
+
 * **02_Load_Dimensions.sql**
 
   * Loads the data from the source table (**grnrl**) into the dimension tables.

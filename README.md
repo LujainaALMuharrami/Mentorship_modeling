@@ -77,16 +77,4 @@ I used a **Star Schema**.
   <img width="389" height="221" alt="image" src="https://github.com/user-attachments/assets/172e0c2f-2d16-4a32-9cea-2f25480ae2bc" />
 
 
----
 
-## Notes
-
-While building this project, I found some issues with duplicate records in the dimension tables. At first I used "SELECT DISTINCT", but it caused duplicate business keys when joining with the fact table.
-
-To fix this, I changed the scripts to:
-
-* Use "GROUP BY" instead of "SELECT DISTINCT"
-* Generate surrogate keys using "ROW_NUMBER()"
-* Use "MAX()" for the descriptive columns when grouping
-* Use "LEFT JOIN" to keep all records from the source table
-* Use "NULLIF()" and data type casting to handle empty values correctly

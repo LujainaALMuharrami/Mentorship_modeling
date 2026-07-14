@@ -59,7 +59,8 @@ I used a **Star Schema**.
 
   * Creates all dimension tables and the fact table.
 
-  <img width="1534" height="767" alt="Screenshot 2026-07-06 141853" src="https://github.com/user-attachments/assets/74be22b0-b12f-4df5-9e13-fed34705cff4" />
+  <img width="993" height="885" alt="image" src="https://github.com/user-attachments/assets/54a545df-83ae-4ea1-9401-26e3899344e9" />
+
 
 
 * **02_Load_Dimensions.sql**
